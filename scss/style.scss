@@ -152,8 +152,6 @@ body{
           text-decoration: none;
           width: 185px;
           padding-top: 11px;
-          //padding-bottom: 17px;
-          //height: 50px;
           margin-left: 35px;
           font-size: 20px;
         }
@@ -162,7 +160,6 @@ body{
     .section4{
       background-color: white;
       width: $width;
-      //height: 1090px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -196,7 +193,6 @@ body{
           align-items: center;
           justify-content: space-evenly;
           font-size: 30px;
-         /* flex: 1 1 auto;*/
           .textIcon3{
             font-size: 48px;
             font-weight: bold;
