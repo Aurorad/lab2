@@ -4,6 +4,8 @@
 }
 $buttonColor: #f69321;
 $width: 100%;
+$blackBorder: 2px black solid;
+$leftMargin: 40px;
 .font {
   color: #ffffff;
   font-family: "Segoe UI", serif;
@@ -27,11 +29,8 @@ body{
       text-decoration: none;
       width: 220px;
       padding-top: 11px;
-      //padding-bottom: 17px;
-     //height: 50px;
       margin: 30px;
       font-size: 20px;
-
     }
   }
   main{
@@ -86,15 +85,14 @@ body{
           margin-left: 570px;
           display: flex;
           flex-wrap: wrap;
-        div{
-          flex: 1 1 auto;
-          .img{
-            width:36px;
-            height: 36px;
+          div{
+             flex: 1 1 auto;
+             .img{
+               width:36px;
+               height: 36px;
 
+             }
           }
-        }
-
         }
       }
       .section2Part2{
@@ -200,7 +198,6 @@ body{
         }
       }
     }
-    $leftMargin: 40px;
     .section5{
       width: $width;
       height: 755px;
@@ -224,7 +221,7 @@ body{
         font-size: 24px;
         margin-bottom: 20px;
       }
-      $blackBorder: 2px black solid;
+
       input{
         margin-left: $leftMargin;
         width: 745px;
