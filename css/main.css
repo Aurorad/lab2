@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.font {
+  color: #ffffff;
+  font-family: "Segoe UI", serif;
+  text-align: center;
+}
+
+body {
+  width: 1700px;
+  margin: 0 auto;
+}
+body header {
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+body header img {
+  margin: 20px 30px;
+  width: 70px;
+  height: 70px;
+}
+body header .button {
+  background-color: #f69321;
+  color: white;
+  text-decoration: none;
+  width: 220px;
+  padding-top: 11px;
+  margin: 30px;
+  font-size: 20px;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+}
+body main .section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/mountain-font.png");
+  width: 100%;
+  height: 878px;
+}
+body main .section1 .backImage {
+  background-image: url("../img/section1-back1.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 840px;
+  height: 220px;
+}
+body main .section1 .backImage div {
+  font-size: 48px;
+}
+body main .section2 {
+  height: 760px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+body main .section2 .section2Part1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body main .section2 .section2Part1 .title {
+  font-size: 40px;
+  color: #000000;
+  align-self: center;
+}
+body main .section2 .section2Part1 .text {
+  color: #666666;
+  font-size: 20px;
+  text-align: left;
+  align-self: center;
+}
+body main .section2 .section2Part1 .icons {
+  margin-top: 75px;
+  margin-left: 570px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body main .section2 .section2Part1 .icons div {
+  flex: 1 1 auto;
+}
+body main .section2 .section2Part1 .icons div .img {
+  width: 36px;
+  height: 36px;
+}
+body main .section2 .section2Part2 {
+  background-image: url("../img/section2Part2.png");
+  opacity: 80%;
+  width: 50%;
+  height: 100%;
+}
+body main .section3 {
+  background-image: url("../img/section3back.png");
+  width: 100%;
+  height: 933px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+body main .section3 .title {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 30px;
+}
+body main .section3 .title img {
+  margin-bottom: 25px;
+}
+body main .section3 label {
+  margin-left: 40px;
+  margin-top: 70px;
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+body main .section3 .email {
+  display: flex;
+}
+body main .section3 .email input {
+  background: none;
+  border: 2px white solid;
+  font-size: 20px;
+  color: white;
+  width: 365px;
+  height: 50px;
+  margin-left: 40px;
+  font-weight: bold;
+  text-indent: 20px;
+}
+body main .section3 .email input::placeholder {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+body main .section3 .email .button {
+  background-color: #f69321;
+  color: white;
+  text-decoration: none;
+  width: 185px;
+  padding-top: 11px;
+  margin-left: 35px;
+  font-size: 20px;
+}
+body main .section4 {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+body main .section4 .title {
+  margin-top: 125px;
+  font-size: 60px;
+}
+body main .section4 .title1 {
+  padding-top: 40px;
+  font-size: 36px;
+  font-style: normal;
+}
+body main .section4 .text {
+  font-size: 30px;
+}
+body main .section4 .icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: normal;
+  margin-top: 135px;
+  margin-bottom: 125px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+body main .section4 .icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 30px;
+  /* flex: 1 1 auto;*/
+}
+body main .section4 .icons div .textIcon3 {
+  font-size: 48px;
+  font-weight: bold;
+}
+body main .section5 {
+  width: 100%;
+  height: 755px;
+  background-color: #efefef;
+  background-image: url("../img/section5.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: black;
+  text-align: left;
+}
+body main .section5 .title {
+  font-size: 36px;
+  margin-left: 40px;
+  margin-bottom: 60px;
+}
+body main .section5 .text {
+  margin-left: 40px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+body main .section5 input {
+  margin-left: 40px;
+  width: 745px;
+  height: 47px;
+  border: 2px black solid;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 0 10px;
+}
+body main .section5 textarea {
+  color: black;
+  margin-left: 40px;
+  width: 745px;
+  height: 245px;
+  border: 2px black solid;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 10px;
+  resize: none;
+  font-family: "Segoe UI", serif;
+}
+body main .section5 a {
+  background-color: #f69321;
+  color: white;
+  text-decoration: none;
+  width: 185px;
+  padding-top: 11px;
+  padding-bottom: 17px;
+  margin-left: 40px;
+  font-size: 20px;
+  text-align: center;
+}
