@@ -1,0 +1,41 @@
+$width: 100%;
+@media only screen and (max-width : 992px){
+  body {
+    max-width: 900px;
+    main {
+      .section1 {
+
+        .backImage{
+          max-width: 500px;
+        }
+      }
+      .section2 {
+        .section2Part1 {
+          width: 100%;
+          .icons {
+            margin: 75px 0 0 75px;
+          }
+        }
+        .section2Part2 {
+          width: 0;
+        }
+      }
+      .section3 .email {
+        flex-direction: column;
+        .button {
+          margin-left: 40px;
+          margin-top: 24px;
+          height: 43px;
+        }
+      }
+      .section5 {
+        input {
+          max-width: 500px;
+        }
+        textarea {
+          max-width: 500px;
+        }
+      }
+    }
+  }
+}

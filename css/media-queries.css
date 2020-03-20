@@ -1,0 +1,31 @@
+@media only screen and (max-width: 992px) {
+  body {
+    max-width: 900px;
+  }
+  body main .section1 .backImage {
+    max-width: 500px;
+  }
+  body main .section2 .section2Part1 {
+    width: 100%;
+  }
+  body main .section2 .section2Part1 .icons {
+    margin: 75px 0 0 75px;
+  }
+  body main .section2 .section2Part2 {
+    width: 0;
+  }
+  body main .section3 .email {
+    flex-direction: column;
+  }
+  body main .section3 .email .button {
+    margin-left: 40px;
+    margin-top: 24px;
+    height: 43px;
+  }
+  body main .section5 input {
+    max-width: 500px;
+  }
+  body main .section5 textarea {
+    max-width: 500px;
+  }
+}
