@@ -2,22 +2,25 @@
 <html lang="ru">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
         <title>Untitled</title>
         <link rel="stylesheet" href="css/main.css">
+        <link href="css/media-queries.css" rel="stylesheet" type="text/css">
     </head>
     <body class="font">
-        <header>
-            <a href="#"><img src="img/logo1.png" class="logo" alt="Logo"/></a>
-            <a href="#" class="button">Подписаться</a>
+        <header id="header">
+            <a href="#header"><img src="img/logo1.png" class="logo" alt="Логотип компании"/></a>
+            <a href="#header" class="button">Подписаться</a>
         </header>
         <main>
-            <section class="section1">
+            <section id="section1" class="section1">
                 <div class="backImage">
                     <div >Минимум вещей в жизни<br/>
                         максимум свободы</div>
                 </div>
             </section>
-            <section class="section2">
+            <section id="section2" class="section2">
                 <div class="section2Part1">
                     <div>
                         <h2 class="title">Книголюбам посвящается</h2>
@@ -26,25 +29,25 @@
                             может оказаться ваш знакомый.</p>
                     </div>
                     <div class="icons">
-                        <a href="#"><img src="img/icon1.png" alt="icon1"/></a>
-                        <a href="#"><img src="img/icon2.png" alt="icon2"/></a>
+                        <a href="#section2"><img src="img/icon1.png" alt="предыдущее"/></a>
+                        <a href="#section2"><img src="img/icon2.png" alt="следующее"/></a>
                     </div>
 
                 </div>
                 <div class="section2Part2"></div>
             </section>
-            <section class="section3">
+            <section id="section3" class="section3">
                 <div class="title">
-                    <a href="#"><img src="img/logo2.png" alt="Logo"></a>
+                    <a href="#section3"><img src="img/logo2.png" alt="Логотип компании"></a>
                     <strong>Сервис Аренды вещей</strong>
                 </div>
                 <label for="email"><strong>Узнайте первыми о запуске:</strong></label>
                 <div class="email">
                     <input id="email" type="email" placeholder="Оставьте email"/>
-                    <a href="#" class="button">Подписаться</a>
+                    <a href="#section3" class="button">Подписаться</a>
                 </div>
             </section>
-            <section class="section4">
+            <section id="section4" class="section4">
                 <p class="title"><strong>Экономьте ваши деньги!</strong></p>
                 <p class="title1">Наша цель создать сообщество минималистов.</p>
                 <p class="text">
@@ -74,7 +77,7 @@
                 </div>
             </div>
             </section>
-            <section class="section5">
+            <section id="section5" class="section5">
                 <div class="title">
                     Остались вопросы или пожелания,<br/>
                     напишите нам и мы с радостью вам ответим.
@@ -83,7 +86,7 @@
                 <input id="themeOfLetter" class="InputTheme" type="text"/>
                 <label for="Letter" class="text">Ваше сообщение:</label>
                 <textarea id="Letter" class="InputMessage"></textarea>
-                <a href="#">Отправить</a>
+                <a href="#section5">Отправить</a>
             </section>
         </main>
     </body>
